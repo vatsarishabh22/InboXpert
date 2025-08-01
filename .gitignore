@@ -1,0 +1,67 @@
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python Egg info
+*.egg-info/
+*.egg
+
+
+# Build artifacts
+build/
+dist/
+*.so
+
+# Logs
+*.log
+
+# Cursor-specific
+.cursor/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Ignore JetBrains IDE settings (like PyCharm)
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+
+# --- SECURITY ---
+# Ignore user-specific authentication files
+# These files contain private keys and should NEVER be committed.
+credentials.json
+gmail_api_credentials.json
+token.json
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Test and coverage tools
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+coverage.xml
+
+# Secrets
+.env
+*.env
+secrets.yaml
+
+# Misc
+*.sqlite3
+*.db
+*.bak
