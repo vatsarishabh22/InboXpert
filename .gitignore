@@ -3,6 +3,7 @@
 .venv/
 env/
 venv/
+.python-version
 pip-wheel-metadata/
 
 # Jupyter Notebook checkpoints
